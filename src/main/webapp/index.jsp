@@ -134,8 +134,8 @@
 </head>
 <body>
 <div class="container">
-    <img src="https://thumbs4.imagebam.com/3e/10/82/MED2HDH_t.png" alt="PersonaHub Logo" class="logo">
-    <h1>Welcome to PersonaHub</h1>
+    <img src="https://thumbs4.imagebam.com/3e/10/82/MED2HDH_t.png" alt="CitizenOne Logo" class="logo">
+    <h1>Welcome to CitizenOne</h1>
     <p>Securely manage profiles, contacts, and avatars in one central hub.</p>
     <a href="#" class="btn">Get Started</a>
 </div>
