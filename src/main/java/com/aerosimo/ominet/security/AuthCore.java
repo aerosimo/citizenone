@@ -31,6 +31,7 @@
 
 package com.aerosimo.ominet.security;
 
+import com.aerosimo.ominet.core.config.Connect;
 import com.github.benmanes.caffeine.cache.Cache;
 import com.github.benmanes.caffeine.cache.Caffeine;
 import okhttp3.MediaType;
@@ -52,9 +53,7 @@ public class AuthCore {
 
     private static final Logger log = LogManager.getLogger(AuthCore.class.getName());
 
-    private static final String AUTHCORE_BASE_URL =
-            "https://ominet.aerosimo.com:9443/authcore/api/auth/validate";
-
+    private static final String AUTHCORE_BASE_URL = Connect.tomcatURL() + "/authcore/api/auth/validate";
     private static final MediaType JSON = MediaType.parse("application/json");
 
     private static final OkHttpClient http = new OkHttpClient.Builder()
